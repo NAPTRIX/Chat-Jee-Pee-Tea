@@ -11,7 +11,7 @@ function generateBruh() {
 }
 
 function typeWriter(output, input, bruhstring) {
-  output.innerHTML += "You: " + input + "<br> Nigga-GPT: "
+  output.innerHTML += `You:  ${input} <br> ${bruhSki} -GPT: `
   let i = 0;
   function type() {
     if (i < bruhstring.length) {
