@@ -36,7 +36,7 @@ function TexttoSpeech(bruhstring) {
   if (JSON.stringify(text).trim() != "") {
     speech.text = text;
     speech.rate = 1;
-    speech.pitch = 10;
+    speech.pitch = 5;
     speech.lang = "en-US";
     speechSynthesis.speak(speech);
   }
